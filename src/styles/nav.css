@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
+
+.nav_list_items {
+    display: flex;
+    align-items: center;
+}
+
+.list_items_left ul {
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+
+.list_items_left {
+    margin-right: 100px;
+}
+
+.list_items_right ul {
+    display: flex;
+    align-items: center; 
+    gap: 35px;
+}
+
+.nav_list_items li {
+    transition: color 0.3s ease; 
+}
+
+.nav_list_items li:hover {
+    color: blue; 
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.list_items_right button {
+    padding: 15px 40px;
+    border: 2px solid var(--primary-color);
+    border-radius: 25px;
+    background: transparent;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.list_items_right button:hover {
+    background: var(--primary-color);
+    color: #ffff;
+    cursor: pointer;
+}
