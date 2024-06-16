@@ -1,0 +1,190 @@
+*{
+    font-family: var( --primary-font);
+}
+.section_one_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--primary-color);
+    height: 300px;
+}
+.section_one_about h3 {
+    color: #ffff;
+    font-size: 30px;
+}
+.section_one_about p {
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffff;
+}
+.section_two_about {
+    padding: 150px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_two_about_text :nth-child(1){
+    color: var(--primary-color);
+    width: 400px;
+    /* background-color: red; */
+    font-size: 40px;
+}
+.section_two_about_text :nth-child(2){
+    width: 600px;
+    /* background-color: red; */
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: start;
+}
+.section_two_about_img img {
+    width: 800px;
+    border-radius: 22% 102% 35% 55% / 39% 19% 64% 20%;
+}
+.quzzing_platform {
+    padding: 120px 80px;
+    text-align: center;
+    
+}
+.quzzing_platform h3 {
+    color: var(--primary-color);
+    font-size: 35px;
+}
+.quzzing_platform p {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.section_two_about_btn_roll {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+}
+.section_two_about_btn_roll button{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.quzzing_platform_img_text {
+    padding-top: 100px;
+    display: flex;
+    text-align: start;
+    gap: 100px;
+    justify-content: center;
+}
+.quzzing_platform_img img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.quzzing_platform_list_items ul li {
+    margin: 40px 0px;
+    font-size: 20px;
+}
+
+.vision_mission {
+    padding: 100px 80px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.vision_mission_img img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px 100px;
+}
+.our_vision p:nth-child(1) {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.our_vision :nth-child(2) {
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.our_vision :nth-child(3) {
+    color: #000;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.success_numbers {
+    background-color: var(--primary-color);
+    padding: 40px;
+    display: flex;
+    gap: 150px;
+    margin: 0 auto;
+}
+.success_numbers h3 {
+    color: #ffff;
+    font-size: 40px;
+}
+.success_numbers p {
+    padding-top: 30px;
+    font-size: 20px;
+    color: #ffff;
+}
+.success_numbers_img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.success_figures_roll_one {
+    display: flex;
+    padding-top: 40px;
+    gap: 150px;
+}
+.teacher p {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+.teacher span {
+    color: #ffff;
+    font-size: 20px;
+}
+.student p {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+.student span {
+    color: #ffff;
+    font-size: 20px;
+}
+.success_figures_roll_two {
+    display: flex;
+    padding-top: 20px;
+    gap: 50px;
+}
+.quiz_created p {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+.quiz_created span {
+    color: #ffff;
+    font-size: 20px;
+}
+.school_grades p {
+    color: var(--secondary-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+.school_grades span {
+    color: #ffff;
+    font-size: 20px;
+}
+
+
+.review_slider {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
