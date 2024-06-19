@@ -6,7 +6,7 @@
 
 .accordion-header {
   cursor: pointer;
-  padding: 20px;
+  padding: 15px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,10 +48,10 @@
     color: var(--primary-color);
 }
 .accordion_text h2 {
-    font-size: 60px;
-    padding-top: 30px;
-    font-weight: 400;
-    letter-spacing: 4px;
+  font-size: 45px;
+  padding-top: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 .accordion-header h2 {
     font-size: 25px;

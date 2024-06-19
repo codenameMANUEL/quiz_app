@@ -22,23 +22,21 @@
 .section_two_about {
     padding: 150px 80px;
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
 }
 .section_two_about_text :nth-child(1){
     color: var(--primary-color);
     width: 400px;
-    /* background-color: red; */
-    font-size: 40px;
+    font-size: 38px;
 }
 .section_two_about_text :nth-child(2){
     width: 600px;
-    /* background-color: red; */
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
     text-align: start;
 }
 .section_two_about_img img {
-    width: 800px;
+    width: 500px;
     border-radius: 22% 102% 35% 55% / 39% 19% 64% 20%;
 }
 .quzzing_platform {
@@ -187,4 +185,5 @@
     display: flex;
     justify-content: center;
     padding: 40px 0px;
+    padding: 50px;
 }

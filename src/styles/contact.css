@@ -63,7 +63,7 @@
     display: block;
     margin: 10px 0px;
     width: 400px;
-    padding: 10px 0px;
+    padding: 10px;
     font-size: 20px;
     border-radius: 10px;
     outline: none;
@@ -86,11 +86,12 @@
     color: #ffff;
     font-size: 20px;
     border-radius: 30px;
+    cursor: pointer;
 }
 .form ::placeholder {
-    padding-left: 10px;
     font-size: 15px;
 }
-.form ::placeholder textarea{
-    padding-top: 20px;
+.form textarea{
+    padding-left: 10px;
+    padding-top: 10px;
 }
