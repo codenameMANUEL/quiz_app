@@ -1,6 +1,8 @@
 import Nav from "../components/Nav";
 import "../styles/contact.css";
 import Accordion from "../components/Accordion";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const accordionDataOne = [
   {
@@ -44,7 +46,9 @@ export default function Contact() {
             send us a message using the form. We're happy to help.
           </p>
           <p>
-            <span>Home</span>
+            <span>
+              <Link to="/">Home</Link>
+            </span>
             <span> &gt; </span>
             <span>Contact us</span>
           </p>
@@ -63,6 +67,35 @@ export default function Contact() {
           <Accordion items={accordionDataTwo} />
         </div>
       </div>
+
+      <div className="get_in_touch">
+        <div className="get_in_touch_text">
+          <h2>Get In touch with us</h2>
+          <p className="note">Please feel free to contact us using the form below.
+            We will respond to your inquiry as soon as as possible
+          </p>
+          <p className="mail">
+            <span>Email: </span>
+            <span>Quizfy@email.com</span>
+          </p>
+          <p className="phone">
+            <span>Phone Number: </span>
+            <span>+293-123-6830</span>
+          </p>
+          <p>Connect on social</p>
+        </div>
+        <div className="form">
+          <input type="text" placeholder="Enter your name"/>
+          <input type="text" placeholder="Enter your email address"/>
+          <input type="text" placeholder="Subject"/>
+          <textarea name="" id="" placeholder="Write your message..."/>
+          <div className="form_btn">
+          <button type="submit">submit</button>
+          </div>
+        </div>
+      </div>
+
+     <Footer />
     </>
   );
 }

@@ -5,6 +5,7 @@ import WhyQuizfy from "../components/WhyQuizfy";
 import { Heart } from "lucide-react";
 import Footer from "../components/Footer";
 import ReviewSlider from "../components/ReviewSlider";
+import { Link } from "react-router-dom";
 
 export default function AboutUs() {
   return (
@@ -13,7 +14,7 @@ export default function AboutUs() {
       <div className="section_one_about">
         <div>
           <h3>About Us</h3>
-          <p>Home &gt; About Us</p>
+          <p><Link to="/">Home</Link> &gt; About Us</p>
         </div>
       </div>
 
