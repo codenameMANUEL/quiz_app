@@ -1,6 +1,16 @@
 :root {
-    --primary-color: #0424CC;
+    --primary-color: #0424cc;
     --secondary-color: #e9bb13;
     --primary-font: "Roboto", sans-serif;
-    --paragragh-color: #4C545C;
+    --paragragh-color: #4d555d;
+}
+
+.flex{
+    display:flex
+}
+.align-item-center{
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
 }
