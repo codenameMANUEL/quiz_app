@@ -1,4 +1,5 @@
 import LogoFooter from "../assets/logo_footer.png";
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -11,27 +12,35 @@ export default function Footer() {
                     <p>Quizify: Learn and have fun with quizzes on a wide variety of topics, created by experienced teachers.</p>
                     <p>Follow Us</p>
                 </div>
-                <div className="social-media">
-                    <a href="#"><img src="facebook-icon.png" alt="Facebook"/></a>
-                    <a href="#"><img src="instagram-icon.png" alt="Instagram"/></a>
-                    <a href="#"><img src="twitter-icon.png" alt="Twitter"/></a>
-                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"/></a>
-                </div>
+                {/* <div className="social-media">
+                    <Link className="social-link">
+                        <img src="facebook-icon.png" alt="Facebook"/>
+                        </Link>
+                    <Link className="social-link">
+                        <img src="instagram-icon.png" alt="Instagram"/>
+                        </Link>
+                    <Link className="social-link">
+                        <img src="twitter-icon.png" alt="Twitter"/>
+                        </Link>
+                    <Link className="social-link">
+                        <img src="linkedin-icon.png" alt="LinkedIn"/>
+                        </Link>
+                </div> */}
             </div>
             <div className="footer-center">
                 <ul>
                     <h3>Quick Links</h3>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">FAQ's</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <Link>Home</Link>
+                    <Link>About us</Link>
+                    <Link>FAQ's</Link>
+                    <Link>Contact us</Link>
                 </ul>
                 <ul>
                     <h3>Quiz's Categories</h3>
-                    <li><a href="#">Science</a></li>
-                    <li><a href="#">Algebra</a></li>
-                    <li><a href="#">Chemistry</a></li>
-                    <li><a href="#">Biology</a></li>
+                    <Link>Science</Link>
+                    <Link>Algebra</Link>
+                    <Link>Chemistry</Link>
+                    <Link>Biology</Link>
                 </ul>
             </div>
             <div className="footer-contact">
